@@ -25,8 +25,8 @@ pip install torch gradio pandas matplotlib youtube_transcript_api transformers P
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/genero-toolkit.git
-   cd genero-toolkit
+   git clone https://github.com/MemaroX/Genero.git
+   cd Genero
    ```
 2. Install the required dependencies:
    ```bash
@@ -49,7 +49,7 @@ pip install torch gradio pandas matplotlib youtube_transcript_api transformers P
 
 ## Project Structure
 ```
-genero-toolkit/
+Genero/
 ├── app.py                # Main application script
 ├── requirements.txt      # List of dependencies
 ├── README.md             # Project documentation
