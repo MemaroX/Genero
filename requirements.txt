@@ -1,0 +1,7 @@
+torch
+gradio
+pandas
+matplotlib
+youtube_transcript_api
+transformers
+PyPDF2
