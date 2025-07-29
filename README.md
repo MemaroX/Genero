@@ -1,4 +1,6 @@
-# Genero Toolkit
+# 🔋 Genero Toolkit
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 Genero Toolkit is a multi-functional AI-powered application designed for processing and analyzing various data sources with optimized performance and minimal resource usage. It leverages lightweight transformer models to provide three core functionalities:
@@ -34,12 +36,12 @@ pip install torch gradio pandas matplotlib youtube_transcript_api transformers P
    ```
 3. Run the application:
    ```bash
-   python app.py
+   python main.py
    ```
 
 ## Usage
 1. **Launch the Application**:
-   - Run `python app.py` to start the Gradio interface in your browser.
+   - Run `python main.py` to start the Gradio interface in your browser.
 2. **YouTube Summarizer**:
    - Paste a YouTube URL and click "Summarize" to generate a summary of the video's transcript.
 3. **PDF Q&A**:
@@ -50,9 +52,11 @@ pip install torch gradio pandas matplotlib youtube_transcript_api transformers P
 ## Project Structure
 ```
 Genero/
-├── app.py                # Main application script
-├── requirements.txt      # List of dependencies
-├── README.md             # Project documentation
+├── Genero-report.pdf   # Detailed project report or methodology
+├── main.py             # Main application script (Gradio interface)
+├── README.md           # Project documentation
+├── requirements.txt    # List of Python dependencies
+└── xl.py               # Utility script, likely for Excel processing
 ```
 
 ## Models
@@ -82,3 +86,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Built as a final project to demonstrate AI-driven data processing.
 - Powered by Hugging Face Transformers, Gradio, and YouTube Transcript API.
 - Special thanks to the open-source community for providing lightweight models and tools.
+
+## Contact
+
+MemaroX - [Your GitHub Profile Link](https://github.com/MemaroX]
